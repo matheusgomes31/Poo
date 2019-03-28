@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="748582dc-b779-4623-9e60-ae3cb6881204" name="UMLClassDiagram1" linkedPackageId="ed58f232-cc05-48a5-91cc-2897e6d85524" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="27344492-bab7-405a-a2a4-ea7e0d2e7c13">
+      <profileInstance Id="bc5e80bf-d382-4f8d-95f3-f2c672cab014" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="4777a148-174c-4dcf-965a-635092d535e0">
+      <profileInstance Id="b18c4b13-1bb1-4759-b8e0-0425ba8fbce4" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="110f5192-5d0c-4789-b935-09923fce1eca" name="Usuario" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8285b17a-1f1e-4ebc-b221-396142bc870d" />
+        <ownedAttributesInternal>
+          <property Id="b6320b2a-c48e-4ddf-a491-abdf859f288f" name="matricula" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6c70405f-9ea3-4af4-b53a-1a29fa6d15f2" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a9e038a9-7856-4906-8e48-fd6b4b5e798c" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="ca923e63-07d6-49ce-9263-6fc5d2f12c02" name="nome" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a77a7bb9-66f2-41a0-8c1c-7a5e25a4770f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="2d5301ec-d7be-4586-8fae-b8b0e27d0178" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="b80f46ec-5ece-443f-9541-456203706f4d" name="TipoUsuario" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5f59851a-4689-4228-93d5-12ef70704897" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a8f6d680-3de0-42b3-be0b-109de1b1ee9a" LastKnownName="tipo" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="6fd182fc-3e78-4e8a-9cf5-88dbc8f29ca0" name="emprestimo" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="229c646b-bd46-499d-920d-af233575f5f7" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="a9e038a9-7856-4906-8e48-fd6b4b5e798c" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="a6ca8f1e-8d1a-4409-8411-f9322e85db10" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="2d5301ec-d7be-4586-8fae-b8b0e27d0178" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="c083e300-0541-4a59-9213-a029324aa325" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9a9c7795-a80e-43ec-a91c-d295558427f3" name="Livro" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="377ea338-4545-47e6-9337-37daece8f9ff" />
+        <ownedAttributesInternal>
+          <property Id="e03f481d-3301-45d1-81b0-a05c1b85c485" name="codigo" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5dc4e277-04ee-48ea-823e-88c967b36e44" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a9e038a9-7856-4906-8e48-fd6b4b5e798c" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="de14c8db-84b1-4de7-b9d3-9890080659fa" name="descricao" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6eee1b46-50d1-4a1d-8821-9f6993481ce8" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="2d5301ec-d7be-4586-8fae-b8b0e27d0178" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="9c8a2400-0fbf-4d9b-8d69-907db8e6bed8" name="localizacao" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="27d744bd-8b60-4f15-97de-2cc4cd88cba0" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="2d5301ec-d7be-4586-8fae-b8b0e27d0178" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="a8f6d680-3de0-42b3-be0b-109de1b1ee9a" name="tipo" isAbstract="false" isLeaf="false" cachedFullName="tipo">
+        <elementDefinition Id="745068f4-5c2e-408d-81f0-a0fc938db35f" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b68007b6-7c86-4ee5-848a-bd8ad8b05f6b" name="PosGraduacao" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6e833a4a-a224-45d3-829a-c3395799b9b4" />
+        <generalsInternal>
+          <generalization Id="34b1af55-2e45-42d9-bac9-1120925079af" isSubstitutable="false">
+            <classMoniker Id="110f5192-5d0c-4789-b935-09923fce1eca" LastKnownName="Usuario" />
+            <elementDefinition Id="23a030ee-1f87-43f4-b0fe-01a41fc96e82" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="a7cb21c6-d276-4e86-86b5-9a410319c296" name="emprestimo" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ec83201c-2316-4cf0-bc9e-262e86cd78fe" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5750bac9-635e-48f9-a58c-d35343cb1a8f" name="Graduacao" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="378d1b30-47c6-45a2-9137-e8d06b9731f9" />
+        <generalsInternal>
+          <generalization Id="4e3c1def-a1d3-4167-ab27-897551c02685" isSubstitutable="false">
+            <classMoniker Id="110f5192-5d0c-4789-b935-09923fce1eca" LastKnownName="Usuario" />
+            <elementDefinition Id="442067ec-f11f-4c3a-80e1-30a93cfbb16d" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="afd9d89b-9f50-4ad7-b7ea-c587f766110e" name="Professor" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d7040ed5-ffd8-480b-b865-624b4c89ce3a" />
+        <generalsInternal>
+          <generalization Id="c5b7bba7-8e8c-4432-b548-b0a10f2e05c7" isSubstitutable="false">
+            <classMoniker Id="110f5192-5d0c-4789-b935-09923fce1eca" LastKnownName="Usuario" />
+            <elementDefinition Id="50eefd85-a253-4669-8406-e71b700267aa" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="2e1af83b-cd63-4df7-b2ee-e0da9029ce4c" name="emprestimo" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4dbca62e-da5b-4bde-8159-3b2db1123afd" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="ed58f232-cc05-48a5-91cc-2897e6d85524" name="ModelingProject1">
+    <elementDefinition Id="c9c0125a-88d5-42ce-a8b4-8e68babe0035" />
+  </package>
+</logicalClassDesignerModel>
